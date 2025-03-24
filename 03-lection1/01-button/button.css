@@ -1,9 +1,4 @@
 .button {
-  --blue-1: #4263EB;
-  --blue-2: #2342C0;
-  --purple-1: #7048E8;
-  --purple-2: #5028C6;
-
   color: var(--white);
   font-family: 'Roboto';
   font-style: normal;
@@ -12,6 +7,7 @@
   line-height: 19px;
   text-align: center;
   padding: 15px 66px 14px;
+  height: 48px;
   border-radius: 8px;
   border: none;
   cursor: pointer;
@@ -51,5 +47,4 @@
 .button:disabled {
   opacity: 0.5;
   pointer-events: none;
-  cursor: not-allowed;
 }
