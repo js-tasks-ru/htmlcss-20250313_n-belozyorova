@@ -1,0 +1,9 @@
+.main {
+  height: 1036px;
+  background-color: var(--grey-5);
+}
+
+.main__container {
+  max-width: var(--container-width);
+  margin: 0 auto;
+}
