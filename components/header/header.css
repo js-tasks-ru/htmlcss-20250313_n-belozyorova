@@ -1,0 +1,19 @@
+.header {
+  background-color: var(--white);
+  color: var(--black);
+  padding: 96px 0 77px;
+}
+
+.header__container {
+  width: var(--container-width);
+  margin: 0 auto;
+}
+
+.header__title {
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 50px;
+  line-height: 64px;
+  margin: 0;
+}
