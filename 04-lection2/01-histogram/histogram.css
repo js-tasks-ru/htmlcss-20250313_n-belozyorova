@@ -16,8 +16,8 @@
 
 .histogram__header {
   display: flex;
-  flex-wrap: wrap;
-  justify-content: space-between;
+  flex-direction: column;
+  gap: 6px
 }
 
 .histogram__title {
@@ -31,10 +31,14 @@
 }
 
 .histogram__number {
-  flex: 100%;
-  margin: 6px 0 0;
+  margin: 0;
   font-size: 20px;
   line-height: 26px;
+}
+
+.histogram__title-link {
+  display: flex;
+  justify-content: space-between;
 }
 
 .histogram__columns {
