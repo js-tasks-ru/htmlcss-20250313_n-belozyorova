@@ -51,7 +51,6 @@
   font-family: 'Source Sans Pro';
   font-size: 16px;
   color: var(--blue-3);
-  padding: 22% 25% 22% 30%;
 }
 
 .calendar__item_in-range {
@@ -61,4 +60,11 @@
 .calendar__item_range-boundary {
   background-color: var(--blue-1);
   color: var(--white);
+}
+
+.calendar__day-number {
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
