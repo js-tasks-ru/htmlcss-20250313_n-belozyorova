@@ -17,3 +17,8 @@
   line-height: 64px;
   margin: 0;
 }
+
+.header_transparent {
+  background-color: transparent;
+}
+

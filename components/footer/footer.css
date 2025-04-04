@@ -3,6 +3,9 @@
   color: var(--black);
   padding: 70px 0 136px;
   text-align: center;
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 500;
 }
 
 .footer__container {
@@ -11,9 +14,20 @@
 }
 
 .footer__title {
-  font-family: 'Inter';
-  font-style: normal;
-  font-weight: 500;
   font-size: 38px;
   line-height: 48px;
+}
+
+.footer_transparent {
+  background-color: transparent;
+  padding: 56px 0;
+}
+
+.footer__common-title {
+    margin: 0;
+    font-size: 12px;
+    line-height: 18px;
+    letter-spacing: 0.04em;
+    text-transform: uppercase;
+    color: var(--grey-3);
 }
