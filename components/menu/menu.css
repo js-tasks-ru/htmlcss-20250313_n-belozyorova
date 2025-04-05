@@ -2,7 +2,6 @@
   display: flex;
   flex-direction: column;
   gap: 32px;
-  width: 229px;
   font-family: 'Inter';
   font-style: normal;
 }
@@ -24,11 +23,11 @@
   list-style-type: none;
 }
 
-.menu__links li {
+.menu__item {
   margin: 4px 0;
 }
 
-.menu__item {
+.menu__link {
   font-weight: 400;
   font-size: 14px;
   line-height: 22px;
@@ -36,6 +35,6 @@
   text-decoration: none;
 }
 
-.menu__item_active {
+.menu__link_active {
   color: var(--orange);
 }
