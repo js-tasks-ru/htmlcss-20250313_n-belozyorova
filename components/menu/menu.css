@@ -33,6 +33,7 @@
   line-height: 22px;
   color: var(--black);
   text-decoration: none;
+  cursor: pointer;
 }
 
 .menu__link_active {

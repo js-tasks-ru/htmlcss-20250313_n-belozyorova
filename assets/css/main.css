@@ -7,6 +7,8 @@
 @import '../../components/footer/footer.css';
 @import '../../components/card/card.css';
 @import '../../components/menu/menu.css';
+@import '../../components/theme-switcher/theme-switcher.css';
+@import '../../components/tab-menu/tab-menu.css';
 
 :root {
     --white: #ffffff;
@@ -36,7 +38,9 @@
     --primary: var(--blue);
     --secondary: var(--purple);
 
-    --container-width: 1110px;
+    --container-width-large: 1110px;
+    --container-width-medium: 730px;
+    --container-width-small: 344px;
 }
 
 body {

@@ -3,14 +3,14 @@
 }
 
 .main__container {
-  max-width: var(--container-width);
-  margin: 68px auto 204px;
+  width: var(--container-width-small);
+  margin: 24px auto 26px;
 }
 
 .main__cards {
   display: flex;
   flex-wrap: wrap;
-  gap: 30px;
+  gap: 16px;
 }
 
 .main_inner .main__container {
@@ -27,4 +27,21 @@
 
 .main__menu {
   width: 229px;
+}
+
+@media screen and (min-width: 768px) {
+  .main__container {
+    width: var(--container-width-medium);
+    margin: 68px auto 204px;
+  }
+
+  .main__cards {
+    gap: 30px;
+  }
+}
+
+@media screen and (min-width: 1280px) {
+  .main__container {
+    width: var(--container-width-large);
+  }
 }
