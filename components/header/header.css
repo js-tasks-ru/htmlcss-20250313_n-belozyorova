@@ -20,17 +20,20 @@
   font-weight: 400;
   font-size: 28px;
   line-height: 38px;
-  margin: 48px 0 32px;
+  margin: 32px 0;
 }
 
 .header_transparent {
   background-color: transparent;
+  border-bottom: none;
 }
 
 .header__top {
   display: flex;
   justify-content: flex-start;
   gap: 93px;
+  margin-bottom: 16px;
+  height: 32px;
 }
 
 .header__logo {
