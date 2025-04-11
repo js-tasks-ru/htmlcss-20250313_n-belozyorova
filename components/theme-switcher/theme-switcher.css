@@ -1,0 +1,21 @@
+.theme-switcher {
+  display: flex;
+  gap: 12px;
+}
+
+.theme-switcher__toggle-frame {
+  box-sizing: border-box;
+  width: 52px;
+  height: 28px;
+  background: var(--white);
+  border: 1px solid var(--grey-3);
+  border-radius: 16px;
+  padding: 1px;
+}
+
+.theme-switcher__toggle-lever {
+  width: 24px;
+  height: 24px;
+  background-color: var(--grey-3);
+  border-radius: 50%;
+}
