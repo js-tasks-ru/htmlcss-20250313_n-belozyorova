@@ -3,32 +3,56 @@
 <html lang="ru">
     <head>
         <link rel="stylesheet" href="./assets/css/main.css">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
     </head>
     <body>
       <div class="page">
         <header class="header">
           <div class="header__container">
+            <div class="header__top">
+              <div class="header__logo">
+                <svg width="110" height="32" viewBox="0 0 110 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <g clip-path="url(#clip0_16774_21)">
+                    <rect y="1" width="30" height="30" fill="#212429" />
+                    <rect x="38" width="32" height="32" rx="16" fill="#212429" />
+                    <path d="M78 0L110 32H78V0Z" fill="#212429" />
+                  </g>
+                  <defs>
+                    <clipPath id="clip0_16774_21">
+                      <rect width="110" height="32" fill="white" />
+                    </clipPath>
+                  </defs>
+                </svg>
+              </div>
+            </div>
             <h1 class="header__title">Reusable component library</h1>
           </div>
         </header>
         <main class="main page__main">
-          <div class="main__container">
-            <div class="main__cards">
-              <div class="card"></div>
-              <div class="card"></div>
-              <div class="card"></div>
+            <div class="main__container">
+                <div class="main__cards">
+                    <div class="card">
+                        <div class="card__preview"></div>
+                        <div class="card__divider"></div>
+                        <div class="card__bottom">
+                            <div class="card__title">Calendar</div>
+                            <div class="card__type">Container</div>
+                        </div>
+                    </div>
+                    <div class="card"></div>
+                    <div class="card"></div>
+                </div>
             </div>
-          </div>
         </main>
         <footer class="footer">
-          <div class="footer__container">
-            <h2 class="footer__title">About</h2>
-            <div class="footer__description">
-              This project is a collection of professionally designed, pre-built, fully responsive HTML snippets you can drop into
-              your projects. Get started by checking out our free preview components, or browsing the PNG previews in the categories
-              you're most curious about.
+            <div class="footer__container">
+                <h2 class="footer__title">About</h2>
+                <div class="footer__description">
+                  This project is a collection of professionally designed, pre-built, fully responsive HTML snippets you can drop into
+                  your projects. Get started by checking out our free preview components, or browsing the PNG previews in the categories
+                  you're most curious about.
+                </div>
             </div>
-          </div>
         </footer>
       </div>
     </body>
