@@ -1,10 +1,11 @@
 .main {
   background-color: var(--grey-5);
+  padding: 24px 0 26px;
 }
 
 .main__container {
   width: var(--container-width-small);
-  margin: 24px auto 26px;
+  margin: 0 auto;
 }
 
 .main__cards {
@@ -15,10 +16,11 @@
 
 .main_inner {
   background-color: var(--white);
+  padding: 32px 0 15px;
 }
 
 .main_inner .main__container {
-  margin: 32px auto 15px;
+  margin: 0 auto;
 }
 
 .main__component-container {
@@ -30,9 +32,13 @@
 }
 
 @media screen and (min-width: 768px) {
+  .main {
+    padding: 68px 0 204px;
+  }
+
   .main__container {
     width: var(--container-width-medium);
-    margin: 68px auto 204px;
+    margin: 0 auto;
   }
 
   .main__cards {

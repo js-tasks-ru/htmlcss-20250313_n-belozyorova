@@ -10,10 +10,6 @@
   margin: 0 auto;
 }
 
-.header__burger-menu {
-  cursor: pointer;
-}
-
 .header__title {
   font-family: 'Inter';
   font-style: normal;
@@ -37,36 +33,10 @@
 }
 
 .header__logo {
-  height: 32px;
-  width: fit-content;
-  display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  gap: 8px;
   position: absolute;
   left: 50%;
   top: 16px;
   transform: translate(-50%, 0);
-}
-
-.header__logo-square,
-.header__logo-circle {
-  width: 32px;
-  height: 32px;
-  background-color: var(--black);
-}
-
-.header__logo-circle {
-  border-radius: 50%;
-}
-
-.header__logo-triangle {
-  border: solid 16px var(--black);
-  border-top-color: transparent;
-  border-right-color: transparent;
-}
-
-.header__menu-wrapper {
-  display: none;
 }
 
 @media screen and (min-width: 768px) {
@@ -90,10 +60,6 @@
     justify-content: space-between;
   }
 
-  .header__burger-menu {
-    display: none;
-  }
-
   .header__logo {
     position: static;
     transform: none;
@@ -104,30 +70,6 @@
     font-weight: 500;
     font-size: 50px;
     line-height: 64px;
-  }
-
-  .header__menu-wrapper {
-    display: flex;
-    gap: 56px;
-  }
-
-  .header__menu {
-    display: flex;
-    gap: 24px
-  }
-
-  .header__menu-link {
-    font-family: 'Inter';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 16px;
-    line-height: 24px;
-    color: var(--grey-3);
-    text-decoration: none;
-  }
-
-  .header__menu-link_active {
-    color: var(--black);
   }
 }
 
