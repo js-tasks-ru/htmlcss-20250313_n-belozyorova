@@ -1,0 +1,11 @@
+.image-wrapper {
+  width: 300px;
+  height: 300px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.image-wrapper__image {
+  width: 100%;
+}
