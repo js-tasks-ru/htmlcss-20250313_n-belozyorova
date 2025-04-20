@@ -22,6 +22,7 @@
   list-style: none;
   display: block;
   padding: 24px 32px;
+  position: relative;
 }
 
 .accordion__summary::-webkit-details-marker {
@@ -36,5 +37,18 @@
   color: #495057;
   padding: 16px 48px 32px 32px;
   margin: 0;
+}
+
+.accordion__toggle-icon {
+  width: 26px;
+  height: 26px;
+  color: var(--grey-4);
+  position: absolute;
+  top: 24px;
+  right: 30px;
+}
+
+.accordion__item[open] .accordion__toggle-icon {
+  transform: rotate(180deg);
 }
 
