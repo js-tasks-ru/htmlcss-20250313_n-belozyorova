@@ -59,8 +59,3 @@
   text-decoration: underline;
 }
 
-.input__wrapper {
-  display: flex;
-  flex-direction: column;
-  gap: 16px;
-}
