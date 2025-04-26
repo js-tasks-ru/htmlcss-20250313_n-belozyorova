@@ -6,6 +6,49 @@
         <link rel="stylesheet" href="./toggler.css">
     </head>
     <body>
-
+        <label class="toggler">
+            <input class="toggler__input" type="checkbox" />
+            <div class="toggler__state">
+                <div class="toggler__control">
+                    <div class="toggler__control-area">
+                        <div class="toggler__lever"></div>
+                    </div>
+                </div>
+                <div class="toggler__legend">Off</div>
+            </div>
+        </label>
+        <label class="toggler">
+            <input class="toggler__input" type="checkbox" checked />
+            <div class="toggler__state">
+                <div class="toggler__control">
+                    <div class="toggler__control-area">
+                        <div class="toggler__lever"></div>
+                    </div>
+                </div>
+                <div class="toggler__legend">On</div>
+            </div>
+        </label>
+        <label class="toggler">
+            <input class="toggler__input" type="checkbox" disabled />
+            <div class="toggler__state">
+                <div class="toggler__control">
+                    <div class="toggler__control-area">
+                        <div class="toggler__lever"></div>
+                    </div>
+                </div>
+                <div class="toggler__legend">Disabled off</div>
+            </div>
+        </label>
+        <label class="toggler">
+            <input class="toggler__input" type="checkbox" checked disabled />
+            <div class="toggler__state">
+                <div class="toggler__control">
+                    <div class="toggler__control-area">
+                        <div class="toggler__lever"></div>
+                    </div>
+                </div>
+                <div class="toggler__legend">Disabled off</div>
+            </div>
+        </label>
     </body>
 </html>
