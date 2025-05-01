@@ -1,0 +1,75 @@
+.text-input {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+
+.text-input__label {
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 18px;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+  color: var(--grey-3);
+}
+
+.text-input__input {
+  height: 56px;
+  box-sizing: border-box;
+  background: var(--white);
+  border: 1px solid var(--grey-2);
+  border-radius: 8px;
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 26px;
+  color: var(--grey-4);
+  padding: 17px 24px 13px;
+}
+
+.text-input__input::placeholder {
+  color: var(--grey-2);
+}
+
+.text-input__input:focus {
+  border-color: var(--blue-1);
+}
+
+.text-input__icon {
+  width: 24px;
+  height: 24px;
+  display: inline-block;
+  position: absolute;
+  top: 16px;
+  right: 16px;
+  opacity: 0;
+}
+
+.text-input__wrapper {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+}
+
+.text-input_success .text-input__input:not(:focus) ~ .text-input__icon_success {
+  color: var(--blue);
+  opacity: 1;
+}
+
+.text-input_invalid .text-input__input:not(:focus) ~ .text-input__icon_error {
+  color: var(--red-1);
+  opacity: 1;
+}
+
+.text-input_invalid .text-input__input {
+  border-color: var(--red-1);
+  box-shadow: 0px 1px 1px rgba(240, 61, 62, 0.1);
+}
+
+.text-input__input:disabled {
+  background-color: var(--grey-1);
+  color: var(--grey-3);
+}
