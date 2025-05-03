@@ -1,11 +1,73 @@
 <!DOCTYPE html>
 <!-- Страница с полем ввода -->
 <html lang="ru">
-    <head>
-        <link rel="stylesheet" href="../../assets/css/main.css">
-        <link rel="stylesheet" href="./input.css">
-    </head>
-    <body>
 
-    </body>
+<head>
+  <link rel="stylesheet" href="../../assets/css/main.css">
+  <link rel="stylesheet" href="./input.css">
+</head>
+
+<body>
+  <div class="text-input">
+      <label class="text-input__label" for="input-1">label</label>
+      <div class="text-input__wrapper">
+          <input class="text-input__input" id="input-1" placeholder="Placeholder" />
+          <svg class="text-input__icon text-input__icon_success">
+              <use href="../../assets/images/icons.svg#check-circle" />
+          </svg>
+          <svg class="text-input__icon text-input__icon_error">
+              <use href="../../assets/images/icons.svg#alert-triangle" />
+          </svg>
+      </div>
+  </div>
+  <div class="text-input">
+      <label class="text-input__label" for="input-2">focus</label>
+      <div class="text-input__wrapper">
+          <input class="text-input__input" id="input-2" placeholder="Placeholder" value="Filled input" />
+          <svg class="text-input__icon text-input__icon_success">
+              <use href="../../assets/images/icons.svg#check-circle" />
+          </svg>
+          <svg class="text-input__icon text-input__icon_error">
+              <use href="../../assets/images/icons.svg#alert-triangle" />
+          </svg>
+      </div>
+  </div>
+  <div class="text-input text-input_success">
+      <label class="text-input__label" for="input-3">success</label>
+      <div class="text-input__wrapper">
+          <input class="text-input__input" id="input-3" placeholder="Placeholder" value="Success" />
+          <svg class="text-input__icon text-input__icon_success">
+              <use href="../../assets/images/icons.svg#check-circle" />
+          </svg>
+          <svg class="text-input__icon text-input__icon_error">
+              <use href="../../assets/images/icons.svg#alert-triangle" />
+          </svg>
+      </div>
+  </div>
+  <div class="text-input text-input_invalid">
+      <label class="text-input__label" for="input-4">error</label>
+      <div class="text-input__wrapper">
+          <input class="text-input__input" id="input-4" placeholder="Placeholder" value="Error" disabled />
+          <svg class="text-input__icon text-input__icon_success">
+              <use href="../../assets/images/icons.svg#check-circle" />
+          </svg>
+          <svg class="text-input__icon text-input__icon_error">
+              <use href="../../assets/images/icons.svg#alert-triangle" />
+          </svg>
+      </div>
+  </div>
+  <div class="text-input">
+      <label class="text-input__label" for="input-5">disabled</label>
+      <div class="text-input__wrapper">
+          <input class="text-input__input" id="input-5" placeholder="Placeholder" value="Filled input" disabled />
+          <svg class="text-input__icon text-input__icon_success">
+              <use href="../../assets/images/icons.svg#check-circle" />
+          </svg>
+          <svg class="text-input__icon text-input__icon_error">
+              <use href="../../assets/images/icons.svg#alert-triangle" />
+          </svg>
+      </div>
+  </div>
+</body>
+
 </html>
