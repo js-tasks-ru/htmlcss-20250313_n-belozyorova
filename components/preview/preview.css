@@ -1,0 +1,11 @@
+.preview {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 16px;
+}
+
+@media screen and (min-width: 768px) {
+  .preview {
+      gap: 30px;
+    }
+}

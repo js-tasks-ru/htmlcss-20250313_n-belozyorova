@@ -2,7 +2,6 @@
   background-color: var(--white);
   color: var(--grey-4);
   padding-top: 16px;
-  border-bottom: solid 1px var(--grey-2);
 }
 
 .header__container {
