@@ -16,7 +16,7 @@
   display: flex;
   flex-direction: row;
   gap: 40px;
-  overflow-y: auto;
+  overflow-x: auto;
 }
 
 .tabs__item {
@@ -53,12 +53,6 @@
   display: block;
 }
 
-.tabs__cards {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 16px;
-}
-
 @media screen and (min-width: 768px) {
   .tabs__scroller {
     width: var(--container-width-medium);
@@ -66,10 +60,6 @@
 
   .tabs__content {
     width: var(--container-width-medium);
-  }
-
-  .tabs__cards {
-    gap: 30px;
   }
 }
 

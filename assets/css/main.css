@@ -9,6 +9,7 @@
 @import '../../components/menu/menu.css';
 @import '../../components/component-container/component-container.css';
 @import '../../components/tabs/tabs.css';
+@import '../../components/preview/preview.css';
 
 :root {
     --white: #ffffff;
